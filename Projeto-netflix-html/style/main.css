@@ -41,7 +41,6 @@ header .logo {
 .principalmovie {
   font-size: 20px;
   background-image: url("../img/rickandmortybackgrounddio.jpg");
-
   background-size: cover;
   width: 1200px;
   height: 900px;
