@@ -52,7 +52,7 @@ let click = (color) => {
   setTimeout(() => {
     createColor(color).classList.remove("selected");
     checkOrder();
-  });
+  },250);
 };
 
 //Arrowfunction that creates  the colors
@@ -92,10 +92,10 @@ let startGame = () => {
 };
 
 //Get the clicks as events
-green.onClick = () => click(0);
-red.onClick = () => click(1);
-yellow.onClick = () => click(2);
-blue.onClick = () => click(3);
+green.onclick = () => click(0);
+red.onclick = () => click(1);
+yellow.onclick = () => click(2);
+blue.onclick = () => click(3);
 
 //Starts the game
 startGame();
